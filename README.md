@@ -6,9 +6,9 @@ The Application consists in a BLog with all Junji Ito's works, this website will
 In this application i used: HTML, CSS and a lot of JS with the BOOTSTRAP 
 </h5>
 <h5>
-her the link Enjoy ^^
+here the link Enjoy ^^
 
-
+https://junji-ito-manga-list.vercel.app/
 </h5>
 
 
