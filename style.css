@@ -1,0 +1,166 @@
+
+
+
+
+/* NAVBAR STYLe*/
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 20px !important;
+    padding: 10px;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+/*AND OF NAVBAR STYLE */
+
+/* FIRST PAGE */
+.first_page {
+    background-image: url("./assets/junji.webp");
+    height: 75vh;
+}
+/* AND OF FIRST PAGE */
+
+.texto__central {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.little__text {
+    text-align: center;
+}
+
+.img__central {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin-top: 20px ;
+}
+
+#item {
+    position: relative;
+    left: 23%;
+    margin-top: 5%;
+}
+.list-group-item{
+   margin-bottom: 1px;
+   font-size: 18px;
+   font-weight: 500;
+   
+}
+
+#quadros {
+    position: relative;
+    left: 11%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+}
+
+.card {
+    border: none !important;
+
+}
+
+.card-text {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500 !important;
+}
+
+.little__text__extras {
+    text-align: center;
+    position: relative;
+    left: 90%;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+   
+}
+
+.h4__fim {
+    margin-bottom: 100px;
+}
+
+.content {
+    background-color: black;
+    height: 100px;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+span {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width: 1280px) {
+    .first_page {
+        height: 70vh;
+        background-position: center;
+    }
+    #quadros {
+        position: relative;
+        left: 8%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+    }
+
+}
+
+@media(max-width: 500px) {
+    * {
+        overflow-x: hidden;
+    }
+    .first_page {
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #quadros {
+        position: relative;
+        left: 12%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+    }
+
+    .texto__central {
+        overflow: hidden;
+    }
+    
+}
+
+@media(max-width: 414px) {
+    #quadros {
+        position: relative;
+        left: 7%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+    }
+}
+
+@media(max-width: 375px) {
+    #quadros {
+        position: relative;
+        left: 3%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+    }
+}
